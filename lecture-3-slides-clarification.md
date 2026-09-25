@@ -1,4 +1,4 @@
-### ==Name lookup rules==
+### Name lookup rules
 - ***Overriding*** method lookup is dynamic: 
     - It uses the actual object's type, i.e., the object before the dot, not the runtime type of an argument.
     - For ***overridable*** instance methods, if the method exists in the reference's declared type, the JVM looks for an overridden version.
