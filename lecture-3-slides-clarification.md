@@ -1,4 +1,4 @@
-### Name lookup rules
+## Name lookup rules
 - ***Overriding*** method lookup is dynamic: 
     - It uses the actual object's type, i.e., the object before the dot, not the runtime type of an argument.
     - For ***overridable*** instance methods, if the method exists in the reference's declared type, the JVM looks for an overridden version.
@@ -14,7 +14,10 @@
 > A field is a variable declared in a class that stores data about an object or the class itself.
 - Overloading chooses the method signature statically (at compile time).
 - Overriding chooses the implementation dynamically (at runtime).
-#### Example A
+
+---
+  
+## Example A
 ```java
 class A {
     void show(Object x) { System.out.println("Object"); }
